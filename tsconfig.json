@@ -2,23 +2,19 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "noEmitHelpers": true,
+    "skipLibCheck": true,
     "sourceMap": true,
     "allowJs": true,
-    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "strictNullChecks": true,
-    "downlevelIteration": true,
-    "noEmitHelpers": true
+    "resolveJsonModule": true
   },
   "include": ["src"]
 }

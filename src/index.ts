@@ -1,3 +1,4 @@
 import { G964 } from './stringsMix';
+import { someExampleFunction } from './basicExamples';
 
-G964.mix('hallo', 'du');
+someExampleFunction();
